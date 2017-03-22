@@ -93,10 +93,7 @@ test:
 #  username: rails-app
 #  password: <%= ENV['RAILS-APP_DATABASE_PASSWORD'] %>
 
-
-
 production:
-  <<: *default
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
